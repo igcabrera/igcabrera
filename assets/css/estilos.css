@@ -4,10 +4,11 @@ body {
 
 /* logo */
 
-#nombre {
+.nombre {
   font-weight: bolder;
   font-size: 25px;
   margin-top: 10px;
+  color: antiquewhite;
 }
 
 /* Hero Section */
