@@ -43,7 +43,16 @@ body {
 /* Mis trabajos */
 
 .card {
-  min-height: 500px;
+  border: none;
+}
+.image-top {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.card-body {
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 /* Contacto */
