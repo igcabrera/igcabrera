@@ -1,0 +1,75 @@
+.navbar {
+    padding: 10px 30px;
+    background-color: #28A745 !important;
+}
+.navbar a {
+    color: white;
+}
+.card {
+    width: 100%;
+    margin: 50px 0px;
+}
+.card-text {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    max-height: 236px;
+}
+.precio {
+    text-align: right;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.precio span {
+    text-align: right;
+    color: #28A745;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.formulario {
+    background-color: #28A745;
+    height: 250px;
+}
+.titulo-form {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 21px;
+    padding-top: 20px;
+}
+.btn-form {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.form-group {
+    margin: 20px 0;
+}
+.btn-primary {
+    --bs-btn-color: #080808;
+    --bs-btn-bg: #eef1f4;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000;
+}
+.footer {
+    padding: 50px;
+    text-align: center;
+}
+.footer p {
+    font-weight: lighter;
+    font-size: 16px;
+}
