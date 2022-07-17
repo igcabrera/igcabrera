@@ -13,12 +13,22 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/portada.jpg");
+
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9)
+  ),
+  url("../img/foto-header.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
 }
 #Hero-Section h1 {
+  color: rgb(255, 255, 255);
+}
+.container h1 span {
   color: red;
 }
 
@@ -27,13 +37,13 @@ body {
 .acerca_de_mi h3 {
   color: red;
 }
+.img-mi {
+  width: 100%;
+}
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.card {
+  min-height: 500px;
 }
 
 /* Contacto */
