@@ -55,7 +55,10 @@ body {
 .card-body {
   border: 1px solid rgba(0,0,0,.125);
 }
-
+#forks {
+  background-color: rgb(238, 238, 238);
+  min-width: 100%;
+}
 /* Contacto */
 
 #Contacto form label {
